@@ -1,8 +1,41 @@
 :root{
     --color-principal: #ecfff6;
+    --color-textos: #43c931;
+}
+
+body{
+    font-family: sans-serif;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
 }
 
 
 .fondo{
     background-color: var(--color-principal);
+}
+
+.etiqueta{
+    margin-top: 100px;
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #b4ffbb8c;
+    color: var(--color-textos);
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.header-index{
+    text-align: center;
+}
+
+.h1-index{
+    color: var(--color-textos);
+    font-size: 70px;
+    max-width: 900px;
+    margin: 20px auto;
+    font-size: 75px;
+    line-height: 1.1;
+    text-align: center;
 }
