@@ -10,6 +10,13 @@ body{
     box-sizing: border-box;
 }
 
+.logo-imagen{
+    width: 4rem;
+}
+
+.nav-a:hover{
+    font-size: 18px;
+}
 
 .fondo{
     background-color: var(--color-principal);
@@ -32,10 +39,53 @@ body{
 
 .h1-index{
     color: var(--color-textos);
-    font-size: 70px;
     max-width: 900px;
     margin: 20px auto;
     font-size: 75px;
     line-height: 1.1;
     text-align: center;
+}
+
+.p-header{
+    color: #666;
+    font-size: 25px;
+    text-align: center;
+    max-width: 900px;
+    margin: 20px auto;
+}
+
+.botones{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.botones a{
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-family: sans-serif;
+    display: inline-block;
+}
+
+.btn-principal{
+    background: linear-gradient(to right, #55bb48, #43c931);
+    color: white;
+}
+
+.btn-secundario{
+    background-color: white;
+    color: black;
+    border: 1px solid #d1d5db;
+}
+
+.btn-principal:hover{
+    background: #6bb860;
+}
+
+.btn-secundario:hover{
+    background-color: #43c931;
+    color: white;
+    transition: all 0.2s; 
 }
