@@ -10,6 +10,10 @@ body{
     box-sizing: border-box;
 }
 
+.icono-menu{
+    font-size: 30px;
+}
+
 .logo-imagen{
     width: 4rem;
 }
@@ -30,7 +34,7 @@ body{
     color: var(--color-textos);
     border-radius: 10px;
     font-size: 14px;
-    font-weight: 500;
+    font-weight: 500px;
 }
 
 .header-index{
@@ -81,7 +85,7 @@ body{
 }
 
 .btn-principal:hover{
-    background: #6bb860;
+    background: #7ad36e;
 }
 
 .btn-secundario:hover{
