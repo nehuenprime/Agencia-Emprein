@@ -8,6 +8,7 @@ body{
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
+    padding-top: 80px;
 }
 
 .icono-menu{
@@ -20,6 +21,18 @@ body{
 
 .nav-a:hover{
     font-size: 18px;
+}
+
+.navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+
+    background: rgba(255, 255, 255, 0.1) !important;
+
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
 }
 
 .navbar-brand{
@@ -148,4 +161,12 @@ body{
 
 .last-card{
     margin-bottom: 100px;
+}
+
+.img-main{
+    background-color: var(--color-principal);
+    border: 1px solid #43c931;
+    border-radius: 0.5rem;
+    padding: 10px;
+    margin-bottom: 10px;
 }
