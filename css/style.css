@@ -15,7 +15,7 @@ body{
 }
 
 .logo-imagen{
-    width: 4rem;
+    width: 3rem;
 }
 
 .nav-a:hover{
@@ -34,7 +34,6 @@ body{
     color: var(--color-textos);
     border-radius: 10px;
     font-size: 14px;
-    font-weight: 500px;
 }
 
 .header-index{
@@ -62,6 +61,7 @@ body{
     display: flex;
     justify-content: center;
     gap: 20px;
+    padding-bottom: 100px;
 }
 
 .botones a{
@@ -89,7 +89,35 @@ body{
 }
 
 .btn-secundario:hover{
-    background-color: #43c931;
+    background-color: var(--color-textos);
     color: white;
     transition: all 0.2s; 
 }
+
+.h2-index{
+    padding-top: 30px;
+    color: var(--color-textos);
+    max-width: 900px;
+    margin: 20px auto;
+    font-size: 35px;
+    line-height: 1.1;
+    text-align: center;
+}
+
+.hr-index{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.index-main{
+    margin: 1rem 2rem;
+}
+
+.main-card{
+    background-color: #fbfffc;
+    border: 1px solid #43c93181;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin: 1rem 0;
+}
+
