@@ -22,6 +22,14 @@ body{
     font-size: 18px;
 }
 
+.navbar-brand{
+    color: var(--color-textos) !important;
+}
+
+.nav-link{
+    color: var(--color-textos) !important;
+}
+
 .fondo{
     background-color: var(--color-principal);
 }
@@ -55,6 +63,23 @@ body{
     text-align: center;
     max-width: 900px;
     margin: 20px auto;
+}
+
+.btn-nav:hover{
+    background-color: #43c931;
+}
+
+.navbar-toggler{
+    border: none !important;
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus{
+    box-shadow: none !important;
+    outline: none !important;
 }
 
 .botones{
@@ -121,3 +146,6 @@ body{
     margin: 1rem 0;
 }
 
+.last-card{
+    margin-bottom: 100px;
+}
