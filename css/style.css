@@ -11,6 +11,12 @@ body{
     padding-top: 80px;
 }
 
+
+.nunito{
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+}
+
 .icono-menu{
     font-size: 30px;
 }
@@ -35,6 +41,10 @@ body{
     -webkit-backdrop-filter: blur(10px);
 }
 
+.hover:hover{
+    font-size: 1.1rem;
+}
+
 .navbar-brand{
     color: var(--color-textos) !important;
 }
@@ -44,6 +54,9 @@ body{
 }
 
 .fondo{
+    background-color: var(--color-principal);
+}
+.fondo-header{
     background-color: var(--color-principal);
 }
 
