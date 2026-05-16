@@ -40,7 +40,7 @@ body{
     width: 100%;
     z-index: 999;
 
-    background: rgba(255, 255, 255, 0.1) !important;
+    background: rgba(255, 255, 255, 0.336) !important;
 
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
@@ -394,6 +394,28 @@ label{
 .contacto-info h3{
     margin-bottom: 10px;
 }
+
+
+/* FOOTER */
+
+footer p{
+    font-size: 20px !important;
+}
+
+.fondo-footer{
+    background-color: var(--color-otro-card);
+    padding-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
