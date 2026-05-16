@@ -461,6 +461,7 @@ footer p{
 
     .p-header{
         font-size: 18px;
+        margin: 2rem;
     }
 
     .etiqueta{
@@ -493,4 +494,15 @@ footer p{
         margin: 2rem;
     }
 
+    .texto-extra{
+        display: none;
+        padding: 0;
+        margin: 0;
+        background: none;
+    }
+
+    .etiqueta{
+        padding-top: 2rem;
+        display: none;
+    }
 }
