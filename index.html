@@ -107,8 +107,28 @@
                     <h4 class="centrar">Negocio abierto 24/7</h4>
                 </article>
         </section>
-        <hr class="hr-index">
-
+        <hr class="hr-index" id="contacto">
+        <section class="card-form contacto">
+            <form class="formulario">
+                <div class="fila">
+                    <label for="Nombre">Nombre Completo</label>
+                    <input type="text" placeholder="Tu nombre" required>
+                    <label for="mailto">Email</label>
+                    <input type="email" placeholder="tu@email.com" required>
+                    <label for="tel">Teléfono</label>
+                    <input type="tel" placeholder="+54 9 11 1234-5678">
+                </div>
+                    <select required>
+                    <option value="">Tipo de proyecto</option>
+                    <option>Landing Page</option>
+                    <option>Sitio Web Completo</option>
+                    <option>E-commerce</option>
+                    <option>Otro</option>
+                </select>
+                <textarea placeholder="Contanos sobre tu proyecto..." rows="5"></textarea>
+                <button type="submit">Enviar solicitud →</button>
+            </form>
+        </section>
     </main>
 
 
