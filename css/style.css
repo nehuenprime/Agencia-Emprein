@@ -3,6 +3,7 @@
     --color-textos: #43c931;
     --color-fondo-card: #fbfffc;
     --color-otro-card: #d7fce9;
+    --color-hover-btn: #7ad36e ;
 }
 
 body{
@@ -146,7 +147,7 @@ body{
 }
 
 .btn-principal:hover{
-    background: #7ad36e;
+    background: var(--color-hover-btn);
 }
 
 .btn-secundario:hover{
@@ -290,7 +291,7 @@ ul{
     padding: 15px;
     border: none;
     border-radius: 10px;
-    background: #22c55e;
+    background: linear-gradient(to right, #55bb48, #43c931);
     color: white;
     font-weight: bold;
 }
@@ -333,25 +334,20 @@ input, select, textarea{
 
 input:focus, textarea:focus, select:focus{
     outline: none;
-    border-color: #22c55e;
+    border-color: var(--color-textos);
 }
 
-button{
+.btn-form{
     padding: 15px;
     border: none;
-    border-radius: 10px;
-
-    background: #22c55e;
+    border-radius: 0.5rem;
+    background: linear-gradient(to right, #55bb48, #43c931);
     color: white;
-
     font-weight: bold;
-    cursor: pointer;
-
-    transition: 0.3s;
 }
 
-button:hover{
-    background: #16a34a;
+.btn-form:hover{
+    background: var(--color-hover-btn);
 }
 
 label{
@@ -385,7 +381,7 @@ label{
     gap: 10px;
 
     padding: 15px;
-    border: 1px solid #43c93181;
+    border: 1px solid var(--color-textos);
     border-radius: 10px;
 
     transition: 0.3s;
