@@ -114,31 +114,31 @@
         </section>
         <section class="card-form contacto">
             <div class="contacto-container">
-                <form class="formulario">
+                <form class="formulario" id="formulario">
                     <div class="contact-form">
                         <div class="fila">
                             <div class="campo">
                                 <label for="Nombre">Nombre Completo</label>
-                                <input type="text" placeholder="Tu nombre" required>
+                                <input type="text" name="nombre" placeholder="Tu nombre" required>
                             </div>
                             <div class="campo">
                                 <label for="mailto">Email</label>
-                                <input type="email" placeholder="tu@email.com" required>
+                                <input type="email" name="email" placeholder="tu@email.com" required>
                             </div>
                             <div class="campo">
                                 <label for="tel">Teléfono</label>
-                                <input type="tel" placeholder="+54 9 11 1234-5678">
+                                <input type="tel" name="telefono" placeholder="+54 9 11 1234-5678">
                             </div>
                         </div>
                     </div>
-                        <select required>
+                        <select required name="proyecto">
                             <option >Tipo de proyecto</option>
                             <option>Landing Page</option>
                             <option>Sitio Web Completo</option>
                             <option>E-commerce</option>
                             <option>Otro</option>
                         </select>
-                        <textarea placeholder="Contanos sobre tu proyecto..." rows="5"></textarea>
+                        <textarea placeholder="Contanos sobre tu proyecto..." rows="5" name="mensaje"></textarea>
                         <button type="submit" class="btn-form">Enviar solicitud →</button>
             </form>
             <div class="contacto-info">
@@ -171,5 +171,8 @@
         
         });
     </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>  
