@@ -254,6 +254,20 @@ ul{
     padding: 2px;
 }
 
+/*  SECCION PROYECTOS */
+
+.card-proyect{
+    background-color: var(--color-principal);
+    border: 1px solid #43c93181;
+    border-radius: 0.5rem;
+    margin: 1rem 0;
+    padding: 30px;
+    box-shadow: 0px 0px 10px 0px #9dd1969a;
+    margin: 3rem auto;
+    max-width: 900px;
+}
+
+
 /* SECCION FORMULARIO */
 
 
