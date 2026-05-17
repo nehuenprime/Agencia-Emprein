@@ -91,7 +91,7 @@ body{
 }
 
 .h-shadow{
-    text-shadow: 0px 0px 2px #43c931;
+    text-shadow: 0px 0px 2px var(--color-textos);
 }
 
 .p-header{
@@ -103,7 +103,7 @@ body{
 }
 
 .btn-nav:hover{
-    background-color: #43c931;
+    background-color: var(--color-textos);
 }
 
 .navbar-toggler{
@@ -196,7 +196,7 @@ body{
 
 .img-main{
     background-color: var(--color-principal);
-    border: 1px solid #43c931;
+    border: 1px solid var(--color-textos);
     border-radius: 0.5rem;
     padding: 10px;
     margin-bottom: 10px;
@@ -388,13 +388,17 @@ label{
 }
 
 .contacto-info .item:hover{
-    background-color: rgba(67, 201, 49, 0.1);
+    background-color: var(--color-principal);
 }
 
 .contacto-info h3{
     margin-bottom: 10px;
 }
 
+.btn-form-2{
+    text-decoration: none;
+    color: #111;
+}
 
 /* FOOTER */
 
@@ -505,4 +509,9 @@ footer p{
         padding-top: 2rem;
         display: none;
     }
+
+    .h-shadow{
+    text-shadow: 0px 0px 1px var(--color-textos);
+    }
+
 }
