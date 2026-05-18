@@ -256,6 +256,20 @@ ul{
 
 /*  SECCION PROYECTOS */
 
+.card-proyect-1:hover{
+    transition: 0.5s;
+    scale: calc(1.05);
+}
+
+.imagen-oscura {
+    filter: brightness(0.6); 
+    transition: 0.3s; 
+}
+
+.imagen-oscura:hover {
+    filter: brightness(1); 
+}
+
 .card-proyect{
     background-color: var(--color-principal);
     border: 1px solid #43c93181;
@@ -528,4 +542,12 @@ footer p{
     text-shadow: 0px 0px 1px var(--color-textos);
     }
 
+    .card-proyect{
+        margin: 1rem;
+        box-shadow: none;
+    }
+
+    hr{
+        margin-bottom: 25px;
+    }
 }
