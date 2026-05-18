@@ -293,8 +293,14 @@ ul{
     margin: 1rem 0;
     padding: 30px;
     box-shadow: 0px 0px 10px 0px #9dd1969a;
-    margin: 3rem auto;
-    max-width: 980px;
+    margin: 4rem auto;
+    max-width: 1050px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 .contacto-container{
@@ -329,12 +335,23 @@ ul{
     display: flex;
     flex-direction: column;
     gap: 15px;
+
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    max-width: 300px; /* Mismo ancho que el botón grande, ajusta según necesites */
+    margin: 0 auto;
 }
 
 .contacto-info .item{
     padding: 15px;
     border: 1px solid #d1d5db;
     border-radius: 10px;
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 
@@ -402,6 +419,7 @@ label{
     justify-content: center; 
     gap: 20px;
     padding: 10px 0;
+    max-width: 500px;
 }
 
 .contacto-info .item{
@@ -414,6 +432,10 @@ label{
     border-radius: 10px;
 
     transition: 0.3s;
+}
+
+.item{
+    max-width: 280px;
 }
 
 .contacto-info .item:hover{
@@ -434,6 +456,7 @@ label{
 footer p{
     font-size: 20px !important;
 }
+
 
 .fondo-footer{
     background-color: var(--color-otro-card);
@@ -473,7 +496,12 @@ footer p{
     margin-left: calc(-50vw + 50%);
 }
 
-
+.contacto-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
 
 
 
@@ -500,6 +528,39 @@ footer p{
 
     .contacto-container{
         grid-template-columns: 1fr;
+    }
+
+    .card-form{
+        max-width: 900px;
+        margin: 2rem;
+    }
+
+    .h2-index{
+        margin: 1rem;
+    }
+
+    .p-header{
+        margin: 1rem;
+    }
+
+    .contacto-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+    }
+    
+    .contacto-info .item {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .contacto-info a {
+        display: inline-flex;
+        justify-content: center;
     }
 
 }
@@ -581,4 +642,6 @@ footer p{
     .footer{
         text-align: center;
     }
+
+
 }
