@@ -441,11 +441,37 @@ footer p{
 }
 
 
+.footer h5, .footer h6{
+    margin-bottom: 15px;
+}
 
+.footer h5{
+    color: var(--color-textos);
+}
 
+.footer ul{
+    list-style: none;
+    padding: 0;
+}
 
+.footer ul li{
+    margin-bottom: 8px;
+}
 
+.footer a{
+    color: #000;
+    text-decoration: none;
+    transition: 0.3s;
+}
 
+.footer a:hover{
+    color: var(--color-textos);
+}
+
+.footer hr{
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
+}
 
 
 
@@ -550,5 +576,9 @@ footer p{
 
     hr{
         margin-bottom: 25px;
+    }
+
+    .footer{
+        text-align: center;
     }
 }
