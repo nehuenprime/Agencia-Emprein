@@ -6,6 +6,10 @@
     --color-hover-btn: #7ad36e ;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     font-family: "Nunito", sans-serif;
     margin: 0%;
@@ -15,6 +19,9 @@ body{
     overflow-x: hidden;
 }
 
+.wsp-logo{
+    width: 5rem;
+}
 
 .nunito{
     font-family: "Nunito", sans-serif;
