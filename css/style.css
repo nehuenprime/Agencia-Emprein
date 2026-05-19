@@ -650,5 +650,7 @@ footer p{
         text-align: center;
     }
 
-
+    .wsp-logo{
+        width: 4rem;
+    }
 }
