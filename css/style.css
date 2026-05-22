@@ -347,7 +347,7 @@ ul{
     justify-content: center;
     text-align: center;
     width: 100%;
-    max-width: 300px; /* Mismo ancho que el botón grande, ajusta según necesites */
+    max-width: 300px;
     margin: 0 auto;
 }
 
