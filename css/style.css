@@ -54,6 +54,30 @@ body{
     -webkit-backdrop-filter: blur(10px);
 }
 
+.navbar .nav-link {
+    position: relative;
+    color: var(--color-textos) !important;
+    transition: color 0.3s ease;
+}
+.navbar .nav-link::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0%;
+    height: 2px;
+    background: #43c931;
+    transition: width 0.3s ease;
+}
+
+.navbar .nav-link:hover {
+    color: #1b7a0e !important;
+}
+
+.navbar .nav-link:hover::after {
+    width: 100%;
+}
+
 .hover:hover{
     font-size: 1.1rem;
 }
