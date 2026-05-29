@@ -541,6 +541,10 @@ footer p{
 
 @media(max-width: 992px){
 
+    .navbar .nav-link::after {
+        display: none;
+    }
+
     .cards{
         grid-template-columns: 1fr 1fr;
     }
