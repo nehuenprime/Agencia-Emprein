@@ -220,10 +220,16 @@ body{
     margin: 1rem 0;
     padding: 30px;
     box-shadow: 0px 0px 10px 0px #9dd1969a;
+    animation: aparecer both;
+    animation-timeline: view();
+    animation-range: cover 10% cover 30%;
 }
 
 .margin-card{
     margin-bottom: 100px;
+    animation: aparecer both;
+    animation-timeline: view();
+    animation-range: cover 10% cover 30%;
 }
 
 .img-main{
@@ -404,6 +410,10 @@ ul{
     display: flex;
     flex-direction: column;
     gap: 20px;
+
+    animation: aparecer both;
+    animation-timeline: view();
+    animation-range: cover 10% cover 30%;
 }
 
 
@@ -541,7 +551,14 @@ footer p{
 }
 
 
-
+@keyframes aparecer {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
 
 
 
