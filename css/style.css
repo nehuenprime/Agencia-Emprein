@@ -313,6 +313,12 @@ ul{
     max-width: 900px;
 }
 
+.proyecto-img {
+    width: 100%;
+    height: 295px !important;
+    object-fit: cover;
+}
+
 
 /* SECCION FORMULARIO */
 
