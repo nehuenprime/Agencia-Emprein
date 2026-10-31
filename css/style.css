@@ -327,6 +327,92 @@ ul{
 }
 
 
+.tst-section {
+    --tst-text: #1a1a3a;
+    --tst-muted: #7a7a95;
+    --tst-gap: 24px;
+    padding: 80px 5%;
+    background: var(--color-principal);
+}
+.tst-title {
+    text-align: center;
+    color: var(--color-textos);
+    font-size: clamp(1.8rem, 4vw, 2.4rem);
+    margin-bottom: 56px;
+}
+.tst-track {
+    display: flex;
+    gap: var(--tst-gap);
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    scrollbar-width: none;    
+}
+.tst-track::-webkit-scrollbar { display: none; }
+
+.tst-card {
+    flex: 0 0 calc((100% - 2 * var(--tst-gap)) / 3);
+    scroll-snap-align: start;
+    background: #fff;
+    border: 1px solid #e6e4f7;
+    border-radius: 14px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+.tst-stars { color: var(--color-textos); letter-spacing: 4px; font-size: .9rem; }
+.tst-quote {
+    font-style: italic;
+    color: var(--tst-text);
+    font-size: .95rem;
+    line-height: 1.5;
+    margin: 28px 0;
+    flex: 1;
+}
+.tst-author strong { display: block; color: var(--tst-text); font-size: .95rem; }
+.tst-author span { display: block; color: var(--tst-muted); font-size: .8rem; margin-top: 14px; }
+
+.tst-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin-top: 32px;
+}
+.tst-controls.is-hidden { display: none; }
+.tst-btn {
+    width: 36px; height: 36px;
+    border: 1px solid #e6e4f7;
+    border-radius: 8px;
+    background: #fff;
+    color: var(--tst-text);
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.tst-btn:hover { border-color: var(--color-textos); }
+.tst-btn:focus-visible { outline: 2px solid var(--color-textos); outline-offset: 2px; }
+.tst-dots { display: flex; gap: 8px; align-items: center; }
+.tst-dot {
+    width: 8px; height: 8px;
+    border: 0; padding: 0;
+    border-radius: 999px;
+    background: #cfcde6;
+    cursor: pointer;
+    transition: width .25s, background .25s;
+}
+.tst-dot.active { width: 32px; background: var(--color-textos); }
+
+@media (max-width: 900px) {
+    .tst-card { flex-basis: calc((100% - var(--tst-gap)) / 2); }
+}
+@media (max-width: 600px) {
+    .tst-card { flex-basis: 100%; }
+}
+
+
 /* SECCION FORMULARIO */
 
 
