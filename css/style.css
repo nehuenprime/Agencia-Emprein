@@ -326,6 +326,28 @@ ul{
     object-fit: cover;
 }
 
+.proyectos-carousel {
+    padding: 0 5%;
+    margin-bottom: 100px;
+}
+.proyectos-carousel .tst-track {
+    padding: 14px 12px;           
+    scroll-padding-inline: 12px;
+}
+.proj-card {
+    flex: 0 0 calc((100% - 2 * var(--tst-gap)) / 3);
+    scroll-snap-align: start;
+    box-sizing: border-box;
+}
+@media (max-width: 900px) {
+    .proj-card { flex-basis: calc((100% - var(--tst-gap)) / 2); }
+}
+@media (max-width: 600px) {
+    .proj-card { flex-basis: 100%;  }
+    .imagen-oscura{
+        filter: brightness(1);
+    }
+}
 
 .tst-section {
     --tst-text: #1a1a3a;
@@ -341,6 +363,7 @@ ul{
     margin-bottom: 56px;
 }
 .tst-track {
+    --tst-gap: 24px;
     display: flex;
     gap: var(--tst-gap);
     max-width: 1200px;
